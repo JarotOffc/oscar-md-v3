@@ -1060,7 +1060,7 @@ module.exports = {
 
                     if (!('viewonce' in chat)) chat.viewonce = false
 
-                    if (!('useDocument' in chat)) chat.useDocument = false
+                    if (!('anticall' in chat)) chat.anticall = false
 
                     if (!('antiToxic' in chat)) chat.antiToxic = false
 
