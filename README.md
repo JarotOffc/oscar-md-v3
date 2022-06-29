@@ -1,4 +1,18 @@
-# Oscar-MD
+<p align="center">
+
+<img src="https://telegra.ph/file/5593bd2eae738c59c18f8.jpg" width="200" height="200"/>
+
+</p>
+
+<p align="center">
+
+    <a href="https://Alpiicantikkk.github.io">
+
+        <img
+
+            src="https://readme-typing-svg.herokuapp.com?size=21&width=280&lines=SC INI+HANYA+RECODE+NGAB🗿?+"
+
+            alt="Jarot-botz"
 
 This script is free, if caught sold, this script will be deleted immediately.
 Don't forget to follow my github
