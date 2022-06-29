@@ -1099,7 +1099,7 @@ module.exports = {
 
                     expired: 0,
 
-                    simi' 0,
+                    simi: 0
                 }
 
             } catch (e) {
