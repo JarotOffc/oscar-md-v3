@@ -18,13 +18,13 @@ let handler = async (m, { conn, command, args }) => {
 
   for (let id of chats) {
 
-    if (isDelete || isClear) await conn.modifyChat(id, (isDelete ? 'delete' : 'clear'), {
+    if (isDelete || isClear) await conn.Chat(id, (isDelete ? 'delete' : 'clear'), {
 
       includeStarred: false
 
     }).catch(console.log)
 
-    else await conn.modifyChat(id, 'mute', -Math.floor(new Date / 1e3) * 1e3 - 1e3).catch(console.log)
+    else await conn.Chat(id, 'mute', -Math.floor(new Date / 1e3) * 1e3 - 1e3).catch(console.log)
 
   }
 
