@@ -59,7 +59,7 @@ https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
   body: ' • %cmd %islimit %isPremium',
   footer: '\n',
   after: `*Made by ♡*
-*%𝗝𝗮𝗿𝗼𝘁 𝗼𝗳𝗳𝗰* | %version
+*%𝗔𝗹𝗽𝗶 𝗼𝗳𝗳𝗰* | %version
 ${'```%npmdesc```'}
 `,
 }
