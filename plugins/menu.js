@@ -58,7 +58,7 @@ const defaultMenu = {
 ┆⬡ *Instagram* 
 ┆⬡ https://instagram.com/oscarbotz_
 ┆⬡ *Group bot offc*
-┆⬡ https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
+┆https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
 ┆⬡ *Youtube*
 ┆⬡https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
 ┗─────────────────⬣
