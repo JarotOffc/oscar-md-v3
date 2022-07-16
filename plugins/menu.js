@@ -64,8 +64,8 @@ const defaultMenu = {
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '┏━┈┈『 %category 』┈┈⬣',
-  body: ' ❀ %cmd %islimit %isPremium',
-  footer: '┗━───────⬣\n',',
+  body: '❀ %cmd %islimit %isPremium',
+  footer: '┗━───────⬣\n',
   after: `*Made by ♡*
 *%𝗔𝗹𝗽𝗶 𝗼𝗳𝗳𝗰* | %version
 ${'```%npmdesc```'}
