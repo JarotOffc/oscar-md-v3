@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
 Bot ini menggunakan script github
 
 Mau scriptnya chat owner wa.me/6285850539404
-Script original By Family-MD
+Script original By Aine-Md
 `
      conn.reply(m.chat, txt, m)
 }
