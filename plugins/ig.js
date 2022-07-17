@@ -10,8 +10,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 handler.help = ['ig'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(ig|igdl|instagram)$/i
-handler.limit = true
-handler.group = true
+handler.premium = true
+handler.group = false
 
 module.exports = handler
 
