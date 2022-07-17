@@ -55,12 +55,7 @@ const defaultMenu = {
 ┆┗──────────────┈ ⳹
 ┆⬡ *Uptime:* : %uptime (%muptime)
 ┆⬡ *Run Bot* : Okteto/heroku
-┆⬡ *Instagram* 
-┆⬡ https://instagram.com/oscarbotz_
-┆⬡ *Group bot offc*
-┆https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
-┆⬡ *Youtube*
-┆⬡https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
+┆⬡ *Ig Owner : instagram.com/oscarbotz_
 ┗─────────────────⬣
 %readmore`.trimStart(),
   header: '┏━┈┈『 %category 』┈┈⬣',
@@ -188,27 +183,27 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                             hydratedFooterText:'Ⓟ premium | Ⓛ limit',
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Website',
+                                    displayText: 'YOUTUBE',
                                     url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
                                 }
                             }, {
                               urlButton: {
-                                    displayText: 'Source',
-                                    url: ''
+                                    displayText: 'GROUP',
+                                    url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Donasi',
+                                    displayText: 'DONASI',
                                     id: '/donasi'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Sewa',
+                                    displayText: 'SEWA',
                                     id: '/sewa'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner',
+                                    displayText: 'OWNER',
                                     id: '/owner'
                                 }
                             }]
