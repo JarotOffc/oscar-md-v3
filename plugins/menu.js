@@ -46,13 +46,14 @@ const defaultMenu = {
 ┆┗──────────────┈ ⳹
 ┆⬡ *Hari:* : %week
 ┆⬡ *Tanggal:* : %date
-┆⬡ *Waktu*
-┆⬡ %wib WIB
-┆⬡ %wita WITA
-┆⬡ %wit WIT
+┆⬡ *Waktu Wib* : %wib 
+┆⬡ *Waktu Wita* : %wita 
+┆⬡ *Waktu Wit* : %wit 
 ┗┬──────────────┈ ⳹
 ┏┤ *Bot info*
 ┆┗──────────────┈ ⳹
+┆⬡ *Limit* : Ⓛ 
+┆⬡ *Premium* : Ⓟ
 ┆⬡ *Uptime:* : %uptime (%muptime)
 ┆⬡ *Run Bot* : Okteto/heroku
 ┆⬡ *Ig Owner : instagram.com/oscarbotz_
@@ -62,8 +63,6 @@ const defaultMenu = {
   body: '❀ %cmd %islimit %isPremium',
   footer: '┗━───────⬣\n',
   after: `*Made by ♡*
-*%𝗔𝗹𝗽𝗶 𝗼𝗳𝗳𝗰* | %version
-${'```%npmdesc```'}
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p }) => {
@@ -180,16 +179,17 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: text.trim(),
-                            hydratedFooterText:'Ⓟ premium | Ⓛ limit',
+                            hydratedFooterText:'                『 JAROT OFC 』',
                             hydratedButtons: [{
-                                urlButton: {
-                                    displayText: 'YOUTUBE',
-                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
-                                }
-                            }, {
                               urlButton: {
                                     displayText: 'GROUP',
                                     url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
+                                }
+                                
+                            }, {
+                              urlButton: {
+                                    displayText: 'YOUTUBE',
+                                    url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
                                 }
                             }, {
                                 quickReplyButton: {
