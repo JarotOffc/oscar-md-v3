@@ -52,8 +52,8 @@ handler.help = ['fb'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
 handler.command = /^f((b|acebook)(dl|download)?(er)?)$/i
-handler.limit = true
-handler.group = true
-handler.premium = false
+handler.limit = false
+handler.group = false
+handler.premium = true
 
 module.exports = handler
