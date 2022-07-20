@@ -2,9 +2,9 @@ let fs = require('fs')
 let chalk = require('chalk')
 
 global.owner = [
+  ['6285713137903'],
   ['6285850539404'],
-  ['6285850539404'],
-  ['6285850539404', 'Owner', true]
+  ['6285713137903', 'Owner', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -58,7 +58,7 @@ fs.watchFile(file_exif, () => {
 // Sticker WM
 global.packname = sticker_name
 global.author = sticker_author
-global.wm = '©Oscar'
+global.wm = '©𝐀𝐥𝐩𝐢'
 
 global.anu = 'https://telegra.ph/file/054b6fe59958df5ad6b1f.jpg'
 
