@@ -10,4 +10,4 @@ handler.tags = ['maker']
 
 handler.command = /^(lolice)$/i
 
-module.exports = handler
+module.exports = handlery
