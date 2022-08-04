@@ -1,7 +1,7 @@
 let handler = async(m, {conn, command, usedPrefix, text}) => {
   global.db.data.users[m.sender].catatan = global.db.data.users[m.sender].catatan || []
   let i = 0
-  if (global.db.data.users[m.sender].catatan.length == 0) return m.reply('Kamu belum punya catatan!')
+  if (global.db.data.users[m.sender].catatan.length == 0) return m.reply('Kamu belum punya catatan!!')
   let txt = '🗒️Daftar catatan🗒️\n\n'
   for (let ct in global.db.data.users[m.sender].catatan) {
     i += 1
