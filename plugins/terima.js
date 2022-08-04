@@ -42,7 +42,7 @@ let handler = async (m, { conn, text }) => {
       }})
     }else{
       global.db.data.users[m.sender].pasangan = user
-      conn.reply(m.chat,`*Selamat anda resmi berpacaran dengan @${user.split('@')[0]}*\n\n*Semoga langgeng dan bahagia selalu @${user.split('@')[0]} ♡ @${m.sender.split('@')[0]} 🥳🥳*`,m,{contextInfo: {
+      conn.reply(m.chat,`*Selamat anda resmi berpacaran dengan inget Jangan di sia"in @${user.split('@')[0]}*\n\n*Semoga langgeng dan bahagia selalu @${user.split('@')[0]} ♡ @${m.sender.split('@')[0]} 🥳🥳*`,m,{contextInfo: {
         mentionedJid: [m.sender,user]
       }})
     }
