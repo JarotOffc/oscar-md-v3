@@ -7,10 +7,10 @@ let handler = async(m, { conn }) => {
    var { berita, berita_url, berita_thumb, berita_jenis, berita_diupload } = c
    var sell = `📺 *Tribun News*
 
-📢 *Berita:* ${berita}
-📁 *Type News:* ${berita_jenis}
-⌚ *Uploded:* ${berita_diupload}
-🛰 *Source Url:* ${berita_url}`
+♨️ *Berita:* ${berita}
+♨️ *Type News:* ${berita_jenis}
+♨️ *Uploded:* ${berita_diupload}
+♨️ *Source Url:* ${berita_url}`
    conn.sendButton(m.chat, sell, wm, berita_thumb, [['Tribun News', '.tribunnews']], m, {jpegThumbnail: await(await fetch(berita_thumb)).buffer()})
 }
 handler.help = ['tribunnews']
