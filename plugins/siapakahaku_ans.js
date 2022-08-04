@@ -5,7 +5,7 @@ handler.before = async function (m) {
     let id = m.chat
     if (!m.quoted || !m.quoted.fromMe || !m.quoted.isBaileys || !/Ketik.*who/i.test(m.quoted.text)) return !0
     this.siapakahaku = this.siapakahaku ? this.siapakahaku : {}
-    if (!(id in this.siapakahaku)) return m.reply('Soal itu telah berakhir')
+    if (!(id in this.siapakahaku)) return m.reply('Soal itu telah berakhir!')
     if (m.quoted.id == this.siapakahaku[id][0].id) {
         let json = JSON.parse(JSON.stringify(this.siapakahaku[id][1]))
         // m.reply(JSON.stringify(json, null, '\t'))
