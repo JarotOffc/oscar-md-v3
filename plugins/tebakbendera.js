@@ -70,6 +70,6 @@ handler.help = ['tebakbendera']
 handler.tags = ['game']
 handler.command = /^tebakbendera/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
