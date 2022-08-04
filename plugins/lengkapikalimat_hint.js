@@ -5,7 +5,7 @@ let handler = async (m, { conn }) => {
     let json = conn.lengkapikalimat[id][1]
     let ans = json.jawaban.trim()
     let clue = ans.replace(/[AIUEOaiueo]/g, '_')
-    conn.reply(m.chat, '```' + clue + '```\nBalas soalnya, bukan pesan ini', conn.lengkapikalimat[id][0])
+    conn.reply(m.chat, '```' + clue + '```\nReply soalnya, bukan pesan ini', conn.lengkapikalimat[id][0])
 }
 handler.command = /^leka$/i
 handler.limit = true
