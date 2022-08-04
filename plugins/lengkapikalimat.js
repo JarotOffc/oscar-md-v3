@@ -30,6 +30,6 @@ handler.help = ['lengkapikalimat']
 handler.tags = ['game']
 handler.command = /^lengkapikalimat/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
