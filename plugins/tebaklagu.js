@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix }) => {
     conn.tebaklagu = conn.tebaklagu ? conn.tebaklagu : {}
     let id = m.chat
     if (id in conn.tebaklagu) {
-        conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini', conn.tebaklagu[id][0])
+        conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini!!', conn.tebaklagu[id][0])
         throw false
     }
     // ubah isi 'id' kalo mau ganti playlist spotifynya
