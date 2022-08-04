@@ -33,6 +33,6 @@ handler.help = ['tebakanime']
 handler.tags = ['game']
 handler.command = /^tebakanime/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
