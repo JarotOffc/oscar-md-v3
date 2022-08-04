@@ -11,7 +11,7 @@ let handler = async(m, { conn }) => {
 }
 handler.help = ['stickerhug']
 handler.tags = ['sticker']
-handler.command = /^hug|stickerhug|stikerhug$/i
+handler.command = /^hugg|stickerhug|stikerhug$/i
 handler.limit = true
 
 module.exports = handler
