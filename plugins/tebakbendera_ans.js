@@ -32,7 +32,7 @@ handler.before = async function (m) {
     let id = m.chat
     if (!m.quoted || !m.quoted.fromMe || !m.quoted.isBaileys || !/Ketik.*tekbe/i.test(m.quoted.text)) return !0
     this.tebakbendera = this.tebakbendera ? this.tebakbendera : {}
-    if (!(id in this.tebakbendera)) return m.reply('Soal itu telah berakhir')
+    if (!(id in this.tebakbendera)) return m.reply('Soal itu telah berakhir!')
     if (m.quoted.id == this.tebakbendera[id][0].id) {
         let json = JSON.parse(JSON.stringify(this.tebakbendera[id][1]))
         // m.reply(JSON.stringify(json, null, '\t'))
