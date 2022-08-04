@@ -6,5 +6,5 @@ let handler = async (m, { conn }) => {
     m.reply('```' + json.unsur.replace(/[bcdfghjklmnpqrstvwxyz]/g, '_') + '```')
 }
 handler.command = /^teki$/i
-handler.limit = true?
+handler.limit = true
 module.exports = handler
