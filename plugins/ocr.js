@@ -4,7 +4,7 @@ const { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, text }) => {
       let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
-    if (!mime) throw `balas gambar dengan perintah .ocr`
+    if (!mime) throw `Reply gambar dengan perintah .ocr`
     if (!/image\/(jpe?g|png)/.test(mime)) throw `_*jenis ${mime} tidak didukung!*_`
     let img = await q.download()
     let url = await uploadImage(img)
