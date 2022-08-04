@@ -7,7 +7,7 @@ let handler = async (m, { conn, usedPrefix }) => {
   conn.tebakgame = conn.tebakgame ? conn.tebakgame : {}
   let id = m.chat
   if (id in conn.tebakgame) {
-    conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini', conn.tebakgame[id][0])
+    conn.reply(m.chat, 'Masih ada soal belum terjawab di chat ini!', conn.tebakgame[id][0])
     throw false
   }
   let src = await (await fetch('https://raw.githubusercontent.com/qisyana/scrape/main/tebakgame.json')).json()
@@ -32,6 +32,6 @@ handler.help = ['tebakgame']
 handler.tags = ['game']
 handler.command = /^tebakgame/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
