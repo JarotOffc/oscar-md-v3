@@ -1,5 +1,5 @@
 /*
-Made by Aine
+Made by Jarot
 */
 
 let handler = async (m, { conn }) => {
