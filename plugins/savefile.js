@@ -5,7 +5,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
     let path = `${text}`
     await require('fs').writeFileSync(path, m.quoted.text)
 
-    m.reply(`Saved ${path} to file!`)
+    m.reply(`Saved ${path} to file!!`)
 }
 
 handler.help = ['savefile', 'sf'].map(v => v + ' <path>')
