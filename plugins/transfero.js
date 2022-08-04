@@ -7,7 +7,7 @@ let handler = async (m, { conn, args, usedPrefix, owner }) => {
         let count = args[1] && args[1].length > 0 ? Math.min(9999999999999999, Math.max(parseInt(args[1]), 1)) : Math.min(1)
       //  let who = m.mentionedJid ? m.mentionedJid[0] : (args[2].replace(/[@ .+-]/g, '').replace(' ', '') + '@s.whatsapp.net')
         let who = no(args[2]) + "@s.whatsapp.net"
-        if(!m.mentionedJid || !args[2]) throw 'Tag salah satu, atau ketik Nomernya!!'
+        if(!m.mentionedJid || !args[2]) throw 'Tag salah satu, atau ketik Nomernya!'
         let users = global.db.data.users
         switch (type) {
             case 'money':
