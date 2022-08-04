@@ -1,6 +1,6 @@
 let handler = async(m, { conn, text }) => {
-  if(!text) throw `emotnya mana?`
-  if(!m.quoted) throw `balas pesannya!`
+  if(!text) throw `emotnya mana??`
+  if(!m.quoted) throw `balas pesannya!!`
   conn.relayMessage(m.chat, { reactionMessage: {
 key: {
  id: m.quoted.id,
