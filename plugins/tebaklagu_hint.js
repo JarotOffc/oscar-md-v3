@@ -8,5 +8,5 @@ let handler = async (m, { conn }) => {
     m.reply('```' + nyanya + '```')
 }
 handler.command = /^cek$/i
-handler.limit = true
+handler.limit = truey
 module.exports = handler
