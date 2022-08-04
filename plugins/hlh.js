@@ -9,4 +9,4 @@ handler.command = /^h([aiueo])l\1h/i
 handler.limit = true
 
 module.exports = handler
-y
+
