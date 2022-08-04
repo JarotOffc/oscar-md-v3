@@ -12,6 +12,6 @@ let handler = async (m, { conn, participants }) => {
 handler.help = ['', 'kah'].map(v => 'siapa' + v + ' <teks>')
 handler.tags = ['kerang']
 handler.command = /^siapa(kah)?$/i
-handler.limit = true,
+handler.limit = true
 
 module.exports = handler
