@@ -18,36 +18,36 @@ let handler = async (m, { conn, participants, groupMetadata }) => {
         const listAdmin = groupAdmins.map((v, i) => `${i + 1}. @${v.id.split('@')[0]}`).join('\n')
        // const owner = groupMetadata.owner || groupAdmins.find(p => p.admin === 'superadmin')?.id || m.chat.split`-`[0] + '@s.whatsapp.net'
 	let now = new Date() * 1
-        let text = `*「 Group Information 」*\n
-*ID:* 
+        let text = `*「 Group Information♨️ 」*\n
+*ID♨️:* 
 ${groupMetadata.id}
 
-*Name:* 
+*Name♨️:* 
 ${groupMetadata.subject}
 
-*Description:* 
+*Description♨️:* 
 ${groupMetadata.desc}
 
-*Total Members:*
+*Total Members♨️:*
 ${participants.length} Members
 
-*Group Owner:* 
+*Group Owner♨️:* 
 @${m.chat.split`-`[0]}
 
-*Group Admin:*
+*Group Admin♨️:*
 ${listAdmin}
 
-*Expired:*
+*Expired♨️:*
 ${(expired - now) > 1 ? msToDate(expired - now) : '*Tidak diatur expired group!*'}
 
-*Group Settings:*
+*Group Settings♨️:*
 ${isBanned ? '✅' : '❌'} Banned
 ${welcome ? '✅' : '❌'} Welcome
 ${detect ? '✅' : '❌'} Detect
 ${global.db.data.chats[m.chat].delete ? '❌' : '✅'} Anti Delete
 ${antiLink ? '✅' : '❌'} Anti Link
 
-*Message Settings:*
+*Message Settings♨️:*
 Welcome: ${sWelcome}
 Bye: ${sBye}
 Promote: ${sPromote}
