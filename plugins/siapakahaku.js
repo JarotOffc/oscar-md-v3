@@ -17,8 +17,8 @@ Siapakah aku? ${json.soal}
 
 Timeout *${(timeout / 1000).toFixed(2)} detik*
 Ketik ${usedPrefix}who untuk bantuan
-Bonus: ${poin} XP 
-TiketCoin: ${tiketcoin} Tiketcoin
+Bonus♨️: ${poin} XP 
+TiketCoin♨️: ${tiketcoin} Tiketcoin
 `.trim()
     conn.siapakahaku[id] = [
         await conn.reply(m.chat, caption, m),
