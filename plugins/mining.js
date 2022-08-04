@@ -7,7 +7,7 @@ const timeout = 3600000
 
 let handler = async (m, { conn, usedPrefix, text }) => {
 	    let time = global.db.data.users[m.sender].lastmining + 3600000
-  if (new Date - global.db.data.users[m.sender].lastmining< 3600000) throw `Anda sudah mengambil hadiah\ntunggu selama ${msToTime(time - new Date())} lagi`
+  if (new Date - global.db.data.users[m.sender].lastmining< 3600000) throw `Anda sudah mengambil hadiah\nTunggu selama ${msToTime(time - new Date())} lagi`
 	//let xpee = `${Math.floor(Math.random(global.db.data.users[m.sender].exp += miningxp) * 5000)}`.trim()
 	// let moneyy = `${Math.floor(Math.random(global.db.data.users[m.sender].money += miningmoney) * 5000)}`.trim()
 	//let limitt = `${Math.floor(Math.random(global.db.data.users[m.sender].limit += mininglimit) * 15)}`.trim()
