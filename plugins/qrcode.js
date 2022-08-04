@@ -7,7 +7,7 @@ handler.help = ['', 'code'].map(v => 'qr' + v + ' <teks>')
 handler.tags = ['tools']
 handler.command = /^qr(code)?$/i
 
-handler.limit = true
+handler.limit = truey
 handler.fail = null
 
 module.exports = handler
