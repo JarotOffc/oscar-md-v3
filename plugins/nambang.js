@@ -29,7 +29,7 @@ let handler = async (m, { conn, usedPrefix, text }) => {
 handler.help = ['nambang']
 handler.tags = ['rpg']
 handler.command = /^(nambang)/i
-handler.group = true
+handler.group = false
 
 handler.fail = null
 handler.limit = true
