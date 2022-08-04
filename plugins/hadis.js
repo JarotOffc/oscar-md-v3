@@ -21,7 +21,7 @@ malik
 1 - 1594
 muslim
 1 - 5362`
-    if (!args[1]) throw `Hadist yang ke berapa?
+    if (!args[1]) throw `Hadist yang ke berapa??
 Contoh: ${usedPrefix + command} ${args[0]} 1`
     try {
         let res = await fetch(`https://islamic-api-indonesia.herokuapp.com/api/data/json/hadith/${args[0]}`)
