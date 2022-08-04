@@ -1,4 +1,4 @@
-// xie hua piao piao batman membuka kulkas dan mngambil semangka lalu memberikan mayo di atas semangka
+// xie hua piao piao batman membuka kulkas dan mngambil semangka lalu memberikan mayo di atas semangka!
 
 let fetch = require('node-fetch')
 let handler = async(m, { conn }) => {
