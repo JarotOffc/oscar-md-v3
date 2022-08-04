@@ -57,7 +57,7 @@ let handler = async (m, { conn, text }) => {
 if (!text) return m.reply('put query')
 wikipedia(`${text}`).then(res => {
     conn.sendFile(m.chat, res.result.thumb, 'wiki.png',`*Judul:* ${res.result.judul}\n\n*Penjelasan:*\n${res.result.isi}\n\n*© Wikipedia*`, m)
-  }).catch(() => { m.reply('Tidak Ditemukan') })
+  }).catch(() => { m.reply('Tidak Dapat Ditemukan') })
 }
 
 handler.help = ['wikipedia'].map(v => v + ' <text>')
