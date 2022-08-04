@@ -21,7 +21,7 @@ let nomors = m.sender
   users[m.sender].money += dapat * 1
   global.db.data.users[m.sender].lastbunuhi = new Date * 1
   m.reply(`Target berhasil di bunuh dan kamu mengambil money target sebesar\n${dapat} Money\nDarah target berkurang -${healtu} Healt`)
-}else conn.reply(m.chat, `Anda sudah membunuh orang dan berhasil sembunyi , tunggu ${timers} untuk membunuhnya lagi`, m)
+}else conn.reply(m.chat, `Anda sudah membunuh orang dan berhasil sembunyi , tunggu ${timers} untuk membunuhnya lagi!!`, m)
 }
 
 handler.help = ['membunuh *@tag*']
