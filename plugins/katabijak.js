@@ -1,6 +1,6 @@
 const quotes = require('../lib/jagokata')
 let handler = async (m, { command, args, usedPrefix }) => {
-    let er = `contoh:\n\n${usedPrefix + command} cinta
+    let er = `Contoh:\n\n${usedPrefix + command} cinta
 
 Opsi Tersedia:
 • cinta
