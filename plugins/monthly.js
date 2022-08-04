@@ -7,7 +7,7 @@ const moneyprem = 40000
 
 let handler = async (m, { isPrems }) => {
     let time = global.db.data.users[m.sender].lastmonthly + 2592000000
-  if (new Date - global.db.data.users[m.sender].lastmonthly < 2592000000) throw `Anda sudah mengklaim, klaim bulanan ini\ntunggu selama ${msToTime(time - new Date())} lagi`
+  if (new Date - global.db.data.users[m.sender].lastmonthly < 2592000000) throw `Anda sudah mengklaim, klaim bulanan ini\nTunggu selama ${msToTime(time - new Date())} lagi`
       // conn.reply(m.chat, `Anda sudah mengklaim dan mendapatkan :`, m)
         global.db.data.users[m.sender].exp += isPrems ? prem : free
         global.db.data.users[m.sender].money += isPrems ? moneyprem : moneyfree
