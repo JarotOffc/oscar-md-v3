@@ -11,7 +11,7 @@ let handler = async (m, { conn, participants }) => {
       welcome: false,
       antiLink: false,
       delete: true,
-    } : db.data.chats[jid].expired ? msToDate(db.data.chats[jid].expired - now) : '*Tidak Diatur Expired Group*'}
+    } : db.data.chats[jid].expired ? msToDate(db.data.chats[jid].expired - now) : '*Tidak Diatur Expired Group!!*'}
 ${db.data.chats[jid].isBanned ? '✅' : '❌'} _Group Banned_
 ${db.data.chats[jid].welcome ? '✅' : '❌'} _Auto Welcome_
 ${db.data.chats[jid].antiLink ? '✅' : '❌'} _Anti Link_\n\n`
