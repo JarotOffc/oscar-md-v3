@@ -36,7 +36,7 @@ function handler(m, { groupMetadata }) {
 }
 handler.help = ['jadian']
 handler.tags = ['fun']
-handler.command = ['jadian']
+handler.command = ['jadian,ajak jadian']
 handler.limit = true
 handler.group = true
 
