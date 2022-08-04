@@ -1,7 +1,7 @@
 const fetch = require('node-fetch')
 const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-await m.reply('*_Tunggu Sebentar Aine Sedang Memprosesnya..._*')
+await m.reply('*_Tunggu Sebentar Jarot Sedang Memprosesnya..._*')
 let res = await fetch(`https://api.violetics.pw/api/downloader/sfile?apikey=DanzzBotzz&url=${args[0]}`)
 let json = await res.json()
 if (!args[0]) throw `Link not found..\n\nExample:\n${usedPrefix}sfile https://sfile.mobi/1FjpfJwHxC07`
@@ -16,6 +16,6 @@ handler.help = ['sfile']
 handler.tags = ['downloader']
 handler.command = /^(sfile)$/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
