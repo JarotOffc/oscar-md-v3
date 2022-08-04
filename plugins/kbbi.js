@@ -19,7 +19,7 @@ module.exports = handler
 
 const { kbbi } = require('../lib/kbbi')
 let handler = async (m, { conn, text }) => {
-  if (!text) throw 'Contoh penggunaan\n#kbbi hai'
+  if (!text) throw 'Contoh Penggunaan\n#kbbi hai'
   kbbi(text).then(res => {
   let kbbi = JSON.stringify(res)
   let jjson = JSON.parse(kbbi)
