@@ -10,7 +10,7 @@ handler.help = ['tagall <pesan>']
 handler.tags = ['group']
 handler.command = /^(tagall)$/i
 
-handler.group = true
+handler.group = tru
 handler.admin = true
 
 module.exports = handler
