@@ -224,7 +224,7 @@ handler.help = ['inv']
 handler.tags = ['rpg']
 handler.command = /^(inv|inventory)$/i
 handler.limit = true
-handler.group = true
+handler.group = false
 module.exports = handler
 
 const more = String.fromCharCode(8206)
