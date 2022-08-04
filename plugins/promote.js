@@ -53,7 +53,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 	 await conn.groupParticipantsUpdate(m.chat, [user], 'promote')
 	//if (response[user] == 408) throw `Nomor tersebut telah keluar baru² ini\nHanya bisa masuk melalui ${usedPrefix}link`
  	
- 	conn.reply(m.chat, `Berhasil menjadi sebagai admin group @${number}`, null, {contextInfo: {
+ 	conn.reply(m.chat, `Berhasil menjadi sebagai admin group! @${number}`, null, {contextInfo: {
     mentionedJid: [user]
  	}})
  }
