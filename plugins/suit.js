@@ -31,9 +31,9 @@ let handler = async (m, { text, usedPrefix }) => {
     } else if (text == 'kertas') {
         if (astro == 'batu') {
             global.db.data.users[m.sender].money += 1000
-            m.reply(`Kamu Menang! \n+1000 Money\nKamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu Menang!! \n+1000 Money\nKamu: ${text}\nBot: ${astro}`)
         } else {
-            m.reply(`Kamu Kalah!\nKamu: ${text}\nBot: ${astro}`)
+            m.reply(`Kamu Kalah!!\nKamu: ${text}\nBot: ${astro}`)
         }
     } else {
         throw salah
