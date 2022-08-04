@@ -34,6 +34,6 @@ handler.help = ['susunkata']
 handler.tags = ['game']
 handler.command = /^susunkata/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
