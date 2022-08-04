@@ -93,7 +93,7 @@ Contoh: ${usedPrefix}${command} jokowi
 handler.help = ['igstalk <username>']
 handler.tags = ['internet']
 handler.command = /^(igstalk)$/i
-handler.limit = true
+handler.premium = true
 
 module.exports = handler
 
