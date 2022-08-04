@@ -46,13 +46,13 @@ let handler = async (m, { text, usedPrefix, command }) => {
     })
     m.reply(`
 ┌「 ${c} 」
-├ tanggal: ${json.data.tanggal}
-├ ${json.data.subuh} : Subuh
-├ ${json.data.duha} : Dhuha
-├ ${json.data.zuhur} : Dzuhur
-├ ${json.data.ashar} : Ashar
-├ ${json.data.magrib} : Mahgrib
-├ ${json.data.isya} : Isya
+├❀ tanggal: ${json.data.tanggal}
+├❀ ${json.data.subuh} : Subuh
+├❀ ${json.data.duha} : Dhuha
+├❀ ${json.data.zuhur} : Dzuhur
+├❀ ${json.data.ashar} : Ashar
+├❀ ${json.data.magrib} : Mahgrib
+├❀ ${json.data.isya} : Isya
 └──────────`.trim())
 }
 handler.help = ['jadwalsalat'].map(v => v + ' <kota>')
