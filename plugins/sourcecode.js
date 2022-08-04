@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
 	
-	// Link Script jgn di ganti ya pliss
+	// Link Script jgn di ganti ya KONTOL
     // Kalo mau masukin github kamu tinggal add aja link githubnya tapi jangan di hapus sumber script!
     // Jangan Ngeyell..
     // Kalo ngeyel gk bakal up sc lagi
