@@ -6,7 +6,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   if (/mp3|a(udio)?$/i.test(command)) {
     if (!/video|audio/.test(mime)) throw `Balas video/audio dengan perintah *${usedPrefix + command}*`
     let media = await q.download()
-    if (!media) throw 'Media tidak dapat diunduh'
+    if (!media) throw 'Media tidak dapat diunduh!!'
     let audio = await toAudio(media, 'mp4')
     if (!audio.data) throw 'Gagal melakukan konversi.'
     await conn.sendFile(m.chat, audio.data, 'file.mp3', '', m, 0, { mimetype: 'audio/mp4', asDocument: global.db.data.chats[m.chat].useDocument })
@@ -14,7 +14,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
   if (/vn|ptt$/i.test(command)) {
     if (!/video|audio/.test(mime)) throw `Balas video/audio dengan perintah *${usedPrefix + command}*`
     let media = await q.download()
-    if (!media) throw 'Media tidak dapat diunduh'
+    if (!media) throw 'Media tidak dapat diunduh!!'
     let audio = await toPTT(media, 'mp4')
     if (!audio.data) throw 'Gagal melakukan konversi.'
     await conn.sendFile(m.chat, audio.data, 'file.mp4', '', m, 1, { mimetype: 'audio/mp4' })
