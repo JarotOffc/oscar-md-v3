@@ -62,7 +62,7 @@ let handler = async (m, { conn, text }) => {
     }
   } finally {
     if (stiker) await conn.sendFile(m.chat, stiker, 'wm.webp', '', m, false, { asSticker: true })
-    else throw 'Conversion failed'
+    else throw 'Eror'
   }
 }
 handler.help = ['wm <packname>|<author>']
