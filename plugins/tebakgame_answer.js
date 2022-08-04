@@ -16,7 +16,7 @@ handler.before = async function (m) {
       clearTimeout(this.tebakgame[id][3])
       delete this.tebakgame[id]
     } else if (similarity(m.text.toLowerCase(), json.jawaban.toLowerCase().trim()) >= threshold) m.reply(`*Dikit Lagi!*`)
-    else m.reply(`*Salah!*`)
+    else m.reply(`*Salah!!*`)
   }
   return !0
 }
