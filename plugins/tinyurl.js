@@ -10,7 +10,7 @@ conn.reply(m.chat, await shortlink(text), m)
 handler.help = ['tinyurl'].map(v => v + ' <link>')
 handler.tags = ['tools']
 handler.command = /^tinyurl$/i
-handler.limit = true
+handler.premium = true
 
 module.exports = handler
 
