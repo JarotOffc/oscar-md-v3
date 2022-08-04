@@ -24,7 +24,7 @@ handler.help = ['twitter'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
 handler.command = /^twitter$/i
-handler.premium = true
+handler.limit = true
 handler.group = true
 
 module.exports = handler
