@@ -9,23 +9,23 @@ let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
 ${usedPrefix}semoji whatsapp 😎
 
 *Opsi*
-- apple
-- facebook
-- google
-- htc
-- lg
-- microsoft
-- mozilla
-- openmoji
-- pixel
-- samsung
-- twitter
-- whatsapp
-- messenger
-- emojidex
-- softbank
-- docomo
-- au_by_kddi
+❀ apple
+❀ facebook
+❀ google
+❀ htc
+❀ lg
+❀ microsoft
+❀ mozilla
+❀ openmoji
+❀ pixel
+❀ samsung
+❀ twitter
+❀ whatsapp
+❀ messenger
+❀ emojidex
+❀ softbank
+❀ docomo
+❀ au_by_kddi
 `.trim()
   if (!args[0]) throw er
 
@@ -215,6 +215,6 @@ ${usedPrefix}semoji whatsapp 😎
 handler.help = ['semoji']
 handler.tags = ['sticker']
 handler.command = /^((s(tic?ker)?)?emo(ji)?)$/i
-handler.limit = true
+handler.premium = true 
 
 module.exports = handler
