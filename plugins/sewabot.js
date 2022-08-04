@@ -3,9 +3,9 @@ let handler = async (m, { conn }) => {
   let pepe = 'https://telegra.ph/file/2e2eb7d093fec08fd00d4.jpg'
   let baper = await fetch(pepe).then(a => a.buffer())
 
-  let aine = '6289654360447@s.whatsapp.net'
-  let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
-  let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/24fa902ead26340f3df2c.png")
+  let Jarot = '6281376349712@s.whatsapp.net'
+  let a = await conn.profilePictureUrl(conn.user.jid, 'image').catch((_) => "https://telegra.ph/file/c357871d8a7348cb5ae21.png")
+  let b = await conn.profilePictureUrl(owner[0]+'@s.whatsapp.net', 'image').catch((_) => "https://telegra.ph/file/c357871d8a7348cb5ae21.png")
   let c = pickRandom([a, b])
   let d = await fetch(c).then(a => a.buffer())
   let prepare = await require('@adiwajshing/baileys').generateWAMessageFromContent(m.key.remoteJid,{listMessage:{
@@ -36,7 +36,7 @@ wa.me/${owner[0]}
   products:[{productId:'7487741964584083'}]}],
   headerImage: { productId: '7487741964584083',
   jpegThumbnail: baper },
-  businessOwnerJid: `6285850539404@s.whatsapp.net`
+  businessOwnerJid: `6281376349712@s.whatsapp.net`
   },
   footerText: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ',
   }},{})
