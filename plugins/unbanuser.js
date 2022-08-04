@@ -26,7 +26,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
   text = no(text) + "@s.whatsapp.net"
   global.db.data.users[text].banned = false
   global.db.data.users[text].bannedDate = 0
-  conn.reply(m.chat,`*Berhasil bebas dari sengsara @${text.split('@')[0]}.*`,m,{ contextInfo: { mentionedJid: [text] } })
+  conn.reply(m.chat,`*Berhasil bebas dari sengsara awokawok @${text.split('@')[0]}.*`,m,{ contextInfo: { mentionedJid: [text] } })
 
 }
 handler.help = ['unban']
