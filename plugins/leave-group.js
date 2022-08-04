@@ -11,7 +11,7 @@ let id = m.chat
  // if (me.isAdmin !== true) throw 'Aku bukan admin T_T'
   if (!m.isGroup) return global.dfail('group', m, conn)
         await m.reply(`Bot telah meninggalkan group ${groupMetadata.subject}\n*Group ID* ${args[0]}`, m.chat)
-        await m.reply('Byee 👋\nBot akan keluar dari group', args[0]) 
+        await m.reply('Byee 👋\nBot akan keluar dari group!', args[0]) 
         await conn.delay(1000)
         await conn.groupLeave(args[0])
   }
