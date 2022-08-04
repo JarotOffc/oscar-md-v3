@@ -14,7 +14,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
   };
 
   if (!text && !m.quoted)
-    return conn.reply(m.chat, `Berikan nomor, tag atau reply chat target`, m);
+    return conn.reply(m.chat, `Berikan nomor, tag atau reply chat target!`, m);
   // let exists = await conn.isOnWhatsApp(number)
   // if (exists) return conn.reply(m.chat, `*Nomor target tidak terdaftar di WhatsApp*`, m)
   if (isNaN(number)) return conn.reply(m.chat, `Nomor tidak valid!`, m);
