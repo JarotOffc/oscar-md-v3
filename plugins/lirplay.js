@@ -57,11 +57,11 @@ if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(comm
 handler.help = ['lirplay', 'lirplay2']
 handler.tags = ['downloader']
 handler.command = /^lirplay2?$/i
-handler.premium = false
-handler.group = true
+handler.premium = true
+handler.group = false
 
 handler.exp = 0
-handler.limit = true
+handler.limit = false
 
 module.exports = handler
 
