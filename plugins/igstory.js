@@ -111,7 +111,7 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
    if (!res.ok) return m.reply('Error')
    let json = await res.json()
    if (!json.status) throw json
-    await m.reply('Sedang di proses..')
+    await m.reply('Sedang di proses!!..')
     for (let { url, type } of json.data) {
       await conn.delay(1500)
       conn.sendFile(m.chat, url, 'ig' + (type == 'image' ? '.jpg' : '.mp4'), '', m)
@@ -120,8 +120,8 @@ let handler = async (m, { conn, args, text, usedPrefix, command }) => {
 handler.help = ['igstory'].map(v => v + ' <username>')
 handler.tags = ['downloader']
 handler.command = /^(igs(tory)?)$/i
-handler.limit = true
-handler.group = true
+handler.premium = true
+handler.group = false
 
 module.exports = handler
 
