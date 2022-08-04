@@ -6,12 +6,12 @@ m.reply(`
 │       *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
-│ *Umur      :* 
+│ *Umur     :* 
 │ *Hobby    :* 
-│ *Kelas      :* 
-│ *Asal         :* 
+│ *Kelas    :* 
+│ *Asal     :* 
 │ *Agama    :* 
- |  *Status     :* 
+| *Youtubeme:* https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
