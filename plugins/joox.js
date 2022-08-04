@@ -24,8 +24,8 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['joox'].map(v => v + ' <judul>')
 handler.tags = ['downloader']
 handler.command = /^joox$/i
-handler.limit = true
-handler.premium = false
+handler.limit = false
+handler.premium = true
 module.exports = handler
 
 const isUrl = (text) => {
