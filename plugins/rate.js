@@ -14,6 +14,6 @@ handler.tags = ['fun']
 handler.command = /^rate$/i
 handler.limit = true
 
-handler.fail = null
+handler.fail = nully
 
 module.exports = handler
