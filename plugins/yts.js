@@ -32,13 +32,13 @@ let handler = async (m, { text }) => {
   let results = await yts(text)
   let teks = results.all.map(v => {
     switch (v.type) {
-      case 'video': return `
+      case 'vidio':return `
 *${v.title}* (${v.url})
 Duration: ${v.timestamp}
 Uploaded ${v.ago}
 ${v.views} views
       `.trim()
-      case 'channel': return `
+      case 'channel♨️': return `
 *${v.name}* (${v.url})
 _${v.subCountLabel} (${v.subCount}) Subscriber_
 ${v.videoCount} video
