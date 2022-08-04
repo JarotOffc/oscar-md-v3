@@ -89,5 +89,5 @@ handler.tags = ['owner']
 
 handler.command = /^simulate$/i
 handler.owner = true
-module.exports = handlery
+module.exports = handler
 
