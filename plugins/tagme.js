@@ -16,6 +16,6 @@ handler.tags = ['group']
 
 handler.command = /^tagme$/i
 
-handler.group = true
+handler.group = truey
 
 module.exports = handler
