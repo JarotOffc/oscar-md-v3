@@ -6,7 +6,7 @@ let handler = async (m, { conn, command, text }) => {
       conn.reply(m.chat, 'Menu berhasil diatur\n' + info, m)
     } else {
       conn.menu = {}
-      conn.reply(m.chat, 'Menu direset', m)
+      conn.reply(m.chat, 'Menu direset!', m)
     }
   } else {
     conn.menu = typeof conn.menu == 'object' ? conn.menu : {}
