@@ -14,7 +14,7 @@ _*SUIT PvP*_
 
 Silahkan @${m.mentionedJid[0].split`@`[0]} 
 `.trim()
-  let footer = `Ketik "terima/ok/gas" untuk memulai suit\nKetik "tolak/gabisa/nanti" untuk menolak`
+  let footer = `Ketik "terima/oke/gas" untuk memulai suit\nKetik "tolak/gabisa/nanti" untuk menolak`
   conn.suit[id] = {
     chat: await conn.sendButton(m.chat, caption, wm, null, [[ 'Terima', 'ok'], [ 'Tolak', 'tolak']], m, { mentions: conn.parseMention(caption) }),
     id: id,
