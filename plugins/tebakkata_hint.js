@@ -8,5 +8,5 @@ let handler = async (m, { conn }) => {
     conn.reply(m.chat, '```' + clue + '```\nBalas soalnya, bukan pesan ini', conn.tebakkata[id][0])
 }
 handler.command = /^teka$/i
-handler.limit = true
+handler.limit = true?
 module.exports = handler
