@@ -22,7 +22,7 @@ END:VCARD`
 handler.help = ['mycontact']
 handler.tags = ['tools']
 handler.command = /^(me|save|saveme|mycontact)$/i
-handler.group = true
+handler.group = false
 handler.limit = true
 handler.fail = null
 module.exports = handler
