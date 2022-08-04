@@ -8,6 +8,6 @@ let handler = async (m, { conn }) => {
     conn.reply(m.chat, '```' + clue + '```\nBalas soalnya, bukan pesan ini', conn.tebakgame[id][0])
 }
 handler.command = /^tega$/i
-handler.limit = true?
+handler.limit = true
 
 module.exports = handler
