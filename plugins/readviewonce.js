@@ -1,7 +1,7 @@
 let { downloadContentFromMessage } = require('@adiwajshing/baileys')
 
 let handler = async (m, { conn }) => {
-    if (!m.quoted) throw `Balas pesan viewOnce nya!`
+    if (!m.quoted) throw `Balas pesan viewOnce nya!!`
     if (m.quoted.mtype !== 'viewOnceMessage') throw 'Yang kamu balas bukan pesan viewOnce'
     let type = Object.keys(m.quoted.message)[0]
     let q = m.quoted.message[type]
