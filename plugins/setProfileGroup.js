@@ -5,7 +5,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
         let img = await q.download()
         if (!img) throw 'Gambar tidak ditemukan'
         await conn.updateProfilePicture(m.chat, img)
-    } else throw `kirim/balas gambar dengan caption *${usedPrefix + command}*`
+    } else throw `kirim/Reply gambar dengan caption *${usedPrefix + command}*`
 }
 handler.help = ['setppgroup']
 handler.tags = ['group']
