@@ -8,7 +8,7 @@ let handler = async function (m, { conn, text, usedPrefix }) {
   if (!name) throw 'Nama tidak boleh kosong (Alphanumeric)'
   if (!age) throw 'Umur tidak boleh kosong (Angka)'
   age = parseInt(age)
-  if (age > 60) throw 'Umur terlalu tua 😂'
+  if (age > 60) throw 'Umur terlalu tua:v 😂'
   if (age < 6) throw 'Bayi bisa ngetik sesuai format bjir ._.'
   let __waktuh = (new Date - global.db.data.users[m.sender].reglast)
    let _waktuh = (+ 86400000 - __waktuh)
