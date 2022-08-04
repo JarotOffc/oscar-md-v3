@@ -8,5 +8,5 @@ let handler = async (m, { conn }) => {
     m.reply('```' + clue + '```')
 }
 handler.command = /^who$/i
-handler.limit = true
+handler.limit = truey
 module.exports = handler
