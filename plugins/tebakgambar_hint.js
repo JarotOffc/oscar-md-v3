@@ -8,6 +8,6 @@ let handler = async (m, { conn }) => {
     conn.reply(m.chat, '```' + clue + '```\nBalas soalnya, bukan pesan ini', conn.tebakgambar[id][0])
 }
 handler.command = /^hint$/i
-handler.limit = true
+handler.limit = truecok
 
 module.exports = handler
