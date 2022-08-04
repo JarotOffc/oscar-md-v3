@@ -29,10 +29,10 @@ Lobster: ${lobster}
 Kepiting: ${kepiting}
 
 *Level Pancingan:*
-Pancingan: *${pancingan == 0 ? 'Tidak Punya' : '' || pancingan == 1 ? 'Level 1' : '' || pancingan == 2 ? 'Level 2' : '' || pancingan == 3 ? 'Level 3' : '' || pancingan == 4 ? 'Level 4' : '' || pancingan == 5 ? 'Level MAX' : ''}*
+Pancingan: *${pancingan == 0 ? 'Tidak Punya!' : '' || pancingan == 1 ? 'Level 1' : '' || pancingan == 2 ? 'Level 2' : '' || pancingan == 3 ? 'Level 3' : '' || pancingan == 4 ? 'Level 4' : '' || pancingan == 5 ? 'Level MAX' : ''}*
 
 ╭────────────────
-│pancingan ${pancingan == 0 ? 'Tidak Punya' : '' || pancingan > 0 && pancingan < 5 ? `Level *${pancingan}* To level *${pancingan + 1}*\n│Exp *${_pancingan}* -> *${pancingan *10000}*` : '' || pancingan == 5 ? '*Max Level*' : ''}
+│pancingan ${pancingan == 0 ? 'Tidak Punya!' : '' || pancingan > 0 && pancingan < 5 ? `Level *${pancingan}* To level *${pancingan + 1}*\n│Exp *${_pancingan}* -> *${pancingan *10000}*` : '' || pancingan == 5 ? '*Max Level*' : ''}
 ╰────────────────
 `.trim()
 
@@ -43,6 +43,6 @@ handler.help = ['kolam']
 handler.tags = ['rpg']
 handler.command = /^(kolam)$/i
 handler.limit = true
-handler.group = true
+handler.group = false
 module.exports = handler
 
