@@ -19,7 +19,7 @@ let nomors = m.sender
   global.db.data.users[m.sender].lastrob = new Date * 1
   conn.reply(m.chat, `Berhasil Merampok Money Target Sebesar ${dapat}`, m)
 
-}else conn.reply(m.chat, `Anda Sudah merampok dan berhasil sembunyi , tunggu ${timers} untuk merampok lagi`, m)
+}else conn.reply(m.chat, `Anda Sudah merampok dan berhasil sembunyi , tunggu ${timers} untuk merampok lagi!!`, m)
 }
 handler.help = ['merampok *@tag*']
 handler.tags = ['rpg']
