@@ -22,7 +22,7 @@ Tiketcoin: 1 Tiketcoin
         await conn.reply(m.chat, caption, m),
         json, poin,
         setTimeout(() => {
-            if (conn.tekateki[id]) conn.reply(m.chat, `Waktu habis!\nJawabannya adalah *${json.jawaban}*`, conn.tekateki[id][0])
+            if (conn.tekateki[id]) conn.reply(m.chat, `Waktu habis!!\nJawabannya adalah *${json.jawaban}*`, conn.tekateki[id][0])
             delete conn.tekateki[id]
         }, timeout)
     ]
