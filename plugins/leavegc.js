@@ -10,12 +10,12 @@
     } else if (args[0] || args.length > 0) {
         let ada = chat.find(bot => bot.jid == args[0]) // Apakah botnya ada disitu
         if (!ada) throw 'Bot tidak berada dalam group itu!!'
-        await m.reply('Byee👋, Bot akan keluar dari group', args[0])
+        await m.reply('Byee👋, Bot akan keluar dari group!!', args[0])
         await conn.groupLeave(args[0])
         await m.reply('Succes!!')
     } else {
         if (!m.isGroup) return global.dfail('group', m, conn)
-        await m.reply('Byee👋, Bot akan keluar dari group', m.chat) // WKWKW pesannya sama semua. gk kreatif :v
+        await m.reply('Byee👋, Bot akan keluar dari group!', m.chat) // WKWKW pesannya sama semua. gk kreatif :v
         await conn.groupLeave(m.chat)
     }
 }
