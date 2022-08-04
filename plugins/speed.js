@@ -64,7 +64,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
 `.trim())
 }
 handler.help = ['ping', 'speed']
-handler.tags = ['info']
+handler.tags = ['info']y
 
 handler.command = /^(ping|speed)$/i
 module.exports = handler
