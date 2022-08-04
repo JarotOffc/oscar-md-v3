@@ -44,7 +44,7 @@ handler.owner = false
 handler.limit = true
 handler.premium = false
 handler.group = false
-handler.private = false.
+handler.private = false
 
 handler.admin = false
 handler.botAdmin = false
