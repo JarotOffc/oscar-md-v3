@@ -16,6 +16,6 @@ let handler = async(m, { conn }) => {
 handler.help = ['kompasnews']
 handler.tags = ['berita']
 handler.command = /^kompas(news)?$/i
-handler.limit = true
+handler.premium = true
 
 module.exports = handler
