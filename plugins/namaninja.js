@@ -40,7 +40,7 @@ handler.premium = false
 handler.group = false
 handler.private = false
 handler.register = false
-handler.admin = false
+handler.admin = falsecok
 handler.botAdmin = false
 handler.limit = true
 
