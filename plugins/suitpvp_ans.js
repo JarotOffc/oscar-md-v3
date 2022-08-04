@@ -6,7 +6,7 @@ handler.before = async function (m) {
   if (room) {
     let win = ''
     let tie = false
-    if (m.sender == room.p2 && /^(acc(ept)?|terima|gas|oke?|tolak|gamau|nanti|ga(k.)?bisa)/i.test(m.text) && m.isGroup && room.status == 'wait') {
+    if (m.sender == room.p2 && /^(acc(ept)?|terima|gas|oke??|tolak|gamau|nanti|ga(k.)?bisa)/i.test(m.text) && m.isGroup && room.status == 'wait') {
       if (/^(tolak|gamau|nanti|ga(k.)?bisa)/i.test(m.text)) {
         this.reply(m.chat, `@${room.p2.split`@`[0]} menolak suit, suit dibatalkan`, m)
         delete this.suit[room.id]
