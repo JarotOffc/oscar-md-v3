@@ -22,35 +22,35 @@ let codegc = args[0]
 	    let metadata = await conn.groupMetadata(codegc)
 	    console.log(groupMetadata)
         let text = `*「 Group Information 」*\n
-*ID:* 
+*ID📛:* 
 ${codegc}
 
-*Name:* 
+*Name📛:* 
 ${await conn.getName(codegc)}
 
-*Description:* 
+*Description📛:* 
 ${metadata.desc}
 
-*Total Members:*
+*Total Members📛:*
 ${participants.length} Member
 
-*Group Owner:* 
+*Group Owner📛:* 
 @${codegc.split`-`[0]}
 
-*Group Admin:*
+*Group Admin📛:*
 ${listAdmin}
 
-*Expired:*
+*Expired📛:*
 ${(expired - now) > 1 ? msToDate(expired - now) : '*Tidak diatur expired group!*'}
 
-*Group Settings:*
+*Group Settings📛:*
 ${isBanned ? '✅' : '❌'} Banned
 ${welcome ? '✅' : '❌'} Welcome
 ${detect ? '✅' : '❌'} Detect
 ${global.db.data.chats[codegc].delete ? '❌' : '✅'} Anti Delete
 ${antiLink ? '✅' : '❌'} Anti Link
 
-*Message Settings:*
+*Message Settings📛:*
 Welcome: ${sWelcome}
 Bye: ${sBye}
 Promote: ${sPromote}
