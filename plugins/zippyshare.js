@@ -1,7 +1,7 @@
 let zsExtract = require('zs-extract')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
- if (!args[0]) throw `Uhm...url nya mana?\n\nContoh:\n${usedPrefix + command} https://www4.zippyshare.com/v/uBGCbNHt/file.html`
+ if (!args[0]) throw `Link nya mana?\n\nContoh:\n${usedPrefix + command} https://www4.zippyshare.com/v/uBGCbNHt/file.html`
  let res = await zsExtract.extract(args[0])
  let { download, filename } = res
  m.reply(JSON.stringify(res, null, 2))
