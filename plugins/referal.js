@@ -15,7 +15,7 @@ let handler = async (m, { conn, usedPrefix, text }) => {
   if (text) {
     if ('ref_count' in users[m.sender]) throw 'Tidak bisa menggunakan kode referal!'
     let link_creator = (Object.entries(users).find(([, { ref_code }]) => ref_code === text.trim()) || [])[0]
-    if (!link_creator) throw 'Kode referal tidak valid'
+    if (!link_creator) throw 'Kode referal tidak valid!'
     let count = users[link_creator].ref_count++
     let extra = xp_bonus[count] || 0
     users[link_creator].exp += xp_link_creator + extra
