@@ -426,7 +426,7 @@ Contoh:
 ${usedPrefix}enable welcome
 ${usedPrefix}disable welcome
 `.trim())
-      throw falsey
+      throw false
   }
   m.reply(`
 *${type}* berhasil di *${isEnable ? 'nyala' : 'mati'}kan* ${isAll ? 'untuk bot ini' : isUser ? '' : 'untuk chat ini'}
