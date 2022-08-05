@@ -220,7 +220,7 @@ Sedang berperang di dungeon...
             })
           }
 
-          // Biar lebih simple
+          // Biar lebih simple:v
           let _1 = users[p1]
           let _2 = users[p2]
           let _3 = users[p3]
