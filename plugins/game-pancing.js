@@ -366,7 +366,7 @@ let handler = async (m, { conn,usedPrefix, command, text, args }) => {
                                 m.reply('Menunggu')
                                  }, 6000) 
                                  setTimeout(() => {
-                                 m.reply('_Sedang Memancing..._')
+                                 m.reply('_Wait Sedang Memancing..._')
                                  }, 0) 
                                  user.lastmancingeasy = new Date * 1
                                  } else conn.reply(m.chat, 'Minimal umpan kamu *250* untuk memancing level extreme', m)
