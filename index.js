@@ -1,4 +1,4 @@
-//console.log('Starting to run ainebot...')
+//console.log('Starting to run oscar-md...')
 const moment = require("moment-timezone")
 const time = moment.tz('Asia/Jakarta').format("HH:mm:ss")
 let cluster = require('cluster')
