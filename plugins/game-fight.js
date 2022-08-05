@@ -4,7 +4,7 @@ conn.level = global.db.data.users[m.sender]
   conn.fight = conn.fight ? conn.fight : {}
   const delay = time => new Promise(res=>setTimeout(res,time));
 
-  if (typeof conn.fight[m.sender] != "undefined" && conn.fight[m.sender] == true) return m.reply(`*Tidak bisa melakukan pertarungan lagi karena anda sedang bertarung bro.*`)
+  if (typeof conn.fight[m.sender] != "undefined" && conn.fight[m.sender] == true) return m.reply(`*Tidak bisa melakukan pertarungan lagi karena anda sedang bertarung bro!.*`)
 
   let users = participants.map(u => u.id)
   var lawan
