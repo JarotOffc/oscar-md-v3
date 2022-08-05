@@ -30,6 +30,6 @@ handler.help = ['family100']
 handler.tags = ['game']
 handler.command = /^family100$/i
 handler.limit = true
-handler.group = true
+handler.group = false
 
 module.exports = handler
