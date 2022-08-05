@@ -1,5 +1,5 @@
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-    if (!args[0] || isNaN(args[0])) throw `Masukan angka mewakili jumlah hari!\n\ncontoh:\n${usedPrefix + command} 30`
+    if (!args[0] || isNaN(args[0])) throw `Masukan angka mewakili jumlah hari!!\n\ncontoh:\n${usedPrefix + command} 30`
 
     let who
     if (m.isGroup) who = args[1] ? args[1] : m.chat
