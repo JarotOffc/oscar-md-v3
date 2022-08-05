@@ -37,7 +37,7 @@ handler.command = /(?:)/i
 handler.owner = true
 handler.mods = false
 handler.premium = false
-handler.group = false
+handler.group = true
 handler.private = false
 
 handler.admin = false
@@ -53,4 +53,4 @@ class CustomArray extends Array {
     else return super(...args)
   }
 }
-no
+
