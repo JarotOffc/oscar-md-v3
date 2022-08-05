@@ -1,5 +1,5 @@
 {
-    "name": "Aine-Bot",
+    "name": "Oscar-Bot",
     "version": "07.06.98",
     "description": "Customizable WhatsApp Bot",
     "depecrated": false,
@@ -27,16 +27,16 @@
         "MD",
         "baileys-md"
     ],
-    "homepage": "https://github.com/Aiinne",
+    "homepage": "https://github.com/Alpiii22",
     "author": {
-        "name": "Muhammad Ridwan Reynaldy"
+        "name": "Muhammad Jarot"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Aiinne"
+        "url": "git+https://github.com/Alpiii22"
     },
     "bugs": {
-        "url": "https://github.com/Aiinne"
+        "url": "https://github.com/Alpiii22"
     },
     "license": "GPL-3.0-or-later",
     "dependencies": {
