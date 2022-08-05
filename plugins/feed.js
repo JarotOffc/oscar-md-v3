@@ -277,7 +277,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             conn.reply(m.chat, `*Selamat hero kamu naik level*`, m)
                         }
                     }
-                } else m.reply(`Pill hero kamu tidak cukup`)
+                } else m.reply(`Pill hero kamu tidak cukup!`)
             } else m.reply(`Herokamu sudah kenyang, coba kasih makan *${waktuher}* lagi`)
             break
         default:
