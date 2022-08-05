@@ -1,6 +1,6 @@
 let fetch = require('node-fetch')
 let handler = async (m, { text }) => {
-    if (!text) throw 'Cari apa?'
+    if (!text) throw 'Cari apa??'
     let res = await fetch(global.API('https://api.github.com', '/search/repositories', {
         q: text
     }))
