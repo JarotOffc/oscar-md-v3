@@ -108,7 +108,7 @@ handler.help = ['hunter']
 handler.tags = ['game']
 handler.command = /^hunter/i
 handler.limit = true
-handler.group = true
+handler.group = false
 handler.fail = null
 
 module.exports = handler
