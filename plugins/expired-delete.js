@@ -28,3 +28,4 @@ function msToDate(ms) {
     return days + " hari " + hours + " jam " + minutes + " menit";
     // +minutes+":"+sec;
 }
+cok
