@@ -19,3 +19,4 @@ handler.customPrefix = /^[$] /
 handler.command = new RegExp
 handler.owner = true
 module.exports = handler
+y
