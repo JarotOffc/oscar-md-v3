@@ -7,7 +7,7 @@ let handler = async(m, { conn, text }) => {
   await m.reply('Searching...')
     let anu = await fetch(`https://api.github.com/users/${text}`).then(a => a.json())
     let thumb = await getBuffer(anu.avatar_url)
-    let hasil = `*── 「 GITHUB STALK 」 ──*
+    let hasil = `*── 「 GITHUB STALK♨️ 」 ──*
 ➸ *Bio*: ${anu.bio}
 ➸ *Perusahaan*: ${anu.company}
 ➸ *Repo Publik:* ${anu.public_repos}
