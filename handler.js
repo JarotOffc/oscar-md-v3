@@ -14,7 +14,7 @@ module.exports = {
 
 
        const _uptime = process.uptime() * 1000
-        global.u = await conn.clockString(_uptime)
+  
         if (global.db.data == null) await loadDatabase()
 
 
