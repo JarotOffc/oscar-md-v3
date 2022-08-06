@@ -2215,7 +2215,7 @@ module.exports = {
 
 
 
-            if (typeof m.text !== 'string') m.text = ''
+            if (typeof m.text !== 'string,sendButton,) m.text = '',global.ftroli
 
 
 
