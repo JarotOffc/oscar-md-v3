@@ -18,8 +18,9 @@ module.exports = {
 
     async handler(chatUpdate) {
         const _uptime = process.uptime() * 1000
-        global.u = await conn.clockString(_uptime)
-        if (global.db.data == null) await loadDatabase()
+        
+        if (global.db.data == null) awai loadDatabase()
+        if (global.u = await coon.clockString(_uptime)
 
         this.msgqueque = this.msgqueque || []
 
