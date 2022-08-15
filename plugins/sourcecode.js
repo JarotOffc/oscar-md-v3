@@ -3,14 +3,14 @@
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let fs = require('fs')
 let handler = async (m) => {
-let krizyn = `
+let jarot = `
 *––––––『 SOURCE CODE 』––––––*
 	`.trim()
   let message = await prepareWAMessageMedia({ image: await (await require('node-fetch')(fotonya3)).buffer()}, { upload: conn.waUploadToServer }) 
     const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         templateMessage: {
             hydratedTemplate: {
-                hydratedContentText: krizyn,
+                hydratedContentText: jarot,
                 imageMessage: message.imageMessage, 
            hydratedFooterText: 'subscribe banh!',
            hydratedButtons: [{
@@ -62,5 +62,5 @@ let krizyn = `
 handler.tags = ['main', 'info']
 handler.customPrefix = /^(sc|script|sourcecode|.sc|.script|.sourcecode)$/i
 handler.command = new RegExp
-handler.help = ['.script']
+handler.help = ['.script,.sc']
 module.exports = handler
