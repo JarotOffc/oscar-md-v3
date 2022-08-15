@@ -3,8 +3,8 @@ let handler = async (m, { conn }) => {
 let teks = 'JadiBot'
 let dana = global.dana
 let pulsa = global.pulsa
-let gopay = global.gopay
-let numberowner = global.numberowner
+let Youtube = global.youtube
+let owner = global.owner
 let anu = `Hallo mypren 👋
 *MAAF KAK FITUR JADIBOT TIDAK ADA DI DALAM FITUR KAMI*
 ⟩» *Kalau kakak mau jadi bot silahkan jasa run aja kak*
@@ -31,7 +31,7 @@ Contact person jasa run:
 wa.me/${numberowner} (Owner)
 
 *Follow Instagram ku juga kak😼*`
-  conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'SewaBot', '.sewaoscar', m) 
+  conn.send2ButtonImg(m.chat, fla + teks, anu, yt, 'Donasi', '.donasi', 'SewaBot', '.sewaoscar', m) 
 }
 handler.help = ['jadibot']
 handler.tags = ['info']
