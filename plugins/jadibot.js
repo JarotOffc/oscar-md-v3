@@ -27,8 +27,8 @@ Jika anda berminat hubungi nomor di bawah!!
 ⟩» *jangan lupa donasi kak* «⟨
 Terimakasih yang sudah mendonasikan untuk bot
 
-Contact person jasa run:
-wa.me/${owner} (Owner)
+Contact person Jasa Tutorial:
+wa.me/${6285850539404} (Owner)
 
 *Follow Instagram ku juga kak😼*`
   conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'SewaBot', '.sewaoscar', m) 
