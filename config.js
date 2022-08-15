@@ -5,9 +5,10 @@ let chalk = require('chalk')
 global.owner = ['6285850539404'] 
 global.mods = [''] 
 global.prems = ['6285850539404','Owner,true] 
+                
 //=============『 Info Owner 』============== //
 global.nameowner = 'ᴹᴿ᭄ Jarot offcঔৣ꧂'
-global.numberowner = '6285850539404',
+global.numberowner2 = '6285850539404',
 global.instagram = 'https://instagram.com/Jarotr_'
 global.github = 'https://github.com/Alpiii22'
 global.Youtube = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
