@@ -12,6 +12,9 @@ global.fotonya7 = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg'
 global.instagram = 'https://instagram.com/Jarotr_'
 global.yt = 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
 global.mods = [] // Want some help?
+global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERBULAN Rp 15.000\nMAKSIMAL 2 GRUP\n》2 BULAN 25.000\nMAKSIMAL 3 GRUP \n》3 BULAN Rp 40.000\nMAKSIMAL 2 GRUP'
+
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=smurfs-logo&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&text='
 global.prems = [] // Premium user has unlimited limit
 global.APIs = { // API Prefix
   // name: 'https://website'
