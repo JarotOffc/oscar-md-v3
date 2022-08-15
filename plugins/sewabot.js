@@ -4,7 +4,7 @@ let teks = 'Sewa'
 let dana = global.dana
 let pulsa = global.pulsa
 let gopay = global.gopay
-let numberowner = global.numberowner
+let owner = global.owner
 let anu = `Hallo mypren 👋
 ━━━〔 ıll *Sewa Bot* llı 〕━━ꕥ
 ━━━━━━━━━━━━━━━━━━━━
@@ -31,7 +31,7 @@ Contact person Sewa Bot:
 wa.me/${numberowner} (Owner)
 
 *Follow Instagram ku juga kak😼*`
-  conn.send2ButtonImg(m.chat, fla + teks, anu, yt, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
+  conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
 }
 handler.help = ['sewaoscar']
 handler.tags = ['info']
