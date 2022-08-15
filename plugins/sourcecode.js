@@ -2,7 +2,7 @@
 
 const { default: makeWASocket, BufferJSON, WA_DEFAULT_EPHEMERAL, generateWAMessageFromContent, downloadContentFromMessage, downloadHistory, proto, getMessage, generateWAMessageContent, prepareWAMessageMedia } = require('@adiwajshing/baileys')
 let fs = require('fs')
-let handler = async (m) => {
+let handler = async (m, { conn }) => {
 let jarot = `
 *––––––『 SOURCE CODE 』––––––*
 	`.trim()
