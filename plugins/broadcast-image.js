@@ -12,7 +12,7 @@ let handler  = async (m, { conn, text }) => {
 
        await conn.delay(1500)
 
-       await conn.send2ButtonImg(id, bcbg, text.trim(), wm, 'Menu', '.menu', 'Owner', '.owner', ftroli)
+       await conn.send2ButtonImg(id, bcbg, text.trim(), wm, 'Menu', '.menu', 'Owner', '.owner',)
 
      }
 
