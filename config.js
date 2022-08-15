@@ -23,6 +23,9 @@ global.APIs = { // API Prefix
   LeysCoder: 'https://leyscoders-api.herokuapp.com',
   restapi: 'https://x-restapi.herokuapp.com'
 }
+global.fotonya6 = 'https://telegra.ph/file/0de3560324d9e346a900f.jpg' //ini ganti pakai foto sosialmedia mu
+
+global.fotonya7 = 'https://telegra.ph/file/0de3560324d9e346a900f.jpg'
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'apikeyaine',
