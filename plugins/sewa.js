@@ -1,9 +1,9 @@
 let fs = require('fs')
 let handler = async (m, { conn }) => {
 let teks = 'Sewa'
-let dana = global.dana
-let pulsa = global.pulsa
-let gopay = global.gopay
+let dana = 085850539404
+let pulsa = 085850539404
+let gopay = 'Gada om:v'
 let owner = global.owner
 let anu = `Hallo mypren 👋
 ━━━〔 ıll *Sewa Bot* llı 〕━━ꕥ
@@ -28,7 +28,7 @@ Jika anda berminat hubungi nomor di bawah!!
 Terimakasih yang sudah mendonasikan untuk bot
 
 Contact person Sewa Bot:
-wa.me/${owner} (Owner)
+wa.me/${6285850539404} (Owner)
 
 *Follow Instagram ku juga kak😼*`
   conn.send3ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
