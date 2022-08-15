@@ -3,7 +3,7 @@ let handler  = async (m, { conn, text }) => {
   conn.reply(m.chat, `_Mengirim pesan broadcast ke ${chats.length} chat_`, m)
   for (let id of chats) {
        let bcbg = 'https://telegra.ph/file/b6b25d5ff74febec06fb4.jpg'
-       await conn.send3ButtonImg(id, bcbg, text.trim(), wm, 'Menu', '.menu', 'Owner', '.owner')
+       await conn.send2ButtonImg(id, bcbg, text.trim(), wm, 'Menu', '.menu', 'Owner', '.owner')
      }
   m.reply('*Broadcast selesai*')
 }
