@@ -49,7 +49,7 @@ if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(comm
 handler.help = ['play', 'play'].map(v => v + ' <search>')
 handler.tags = ['downloader']
 handler.command = /^play2?$/i
-handler.premium = false
+handler.premium = true
 handler.group = true
 
 handler.exp = 0
