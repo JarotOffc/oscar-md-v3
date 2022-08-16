@@ -38,7 +38,7 @@ let jarot = `
            },
                {
              quickReplyButton: {
-               displayText: 'Pilihan Store',
+               displayText: 'PILIHAN STORE',
                id: '.pilihanstore',
              }
              
