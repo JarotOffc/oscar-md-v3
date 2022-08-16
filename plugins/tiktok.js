@@ -1,4 +1,4 @@
-const hxz = require("hxz-api")
+const { tiktokdl } = require("hxz-api")
 let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
 	if (!args[0]) throw `Link tiktoknya mana?\n\ncontoh:\n${usedPrefix}${command} https://vm.tiktok.com/ZGJAmhSrp/`
     tiktokdl(args[0]).then(r => {
