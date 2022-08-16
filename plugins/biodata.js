@@ -19,35 +19,35 @@ let jarot = `
            hydratedFooterText: 'salam kenal bang👋',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'GroupBot 🐈',
+               displayText: '𝙂𝙧𝙤𝙪𝙥 𝘽𝙤𝙩 𝙊𝙛𝙛𝙘 🐈',
                url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
              }
 
            },
                 {
                urlButton: {
-               displayText: '🌍 Link Youtube 🌍',
+               displayText: '𝙇𝙞𝙣𝙠 𝙔𝙤𝙪𝙏𝙪𝙗𝙚 🌍',
                url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Sewa Bot',
+               displayText: '𝙎𝙚𝙬𝙖 𝘽𝙤𝙩 🏧',
                id: '.sewa',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'Menu',
+               displayText: '𝙈𝙚𝙣𝙪 ⛽',
                id: '.menu',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: 'Donasi bang',
+               displayText: '𝘿𝙤𝙣𝙖𝙨𝙞 𝘽𝙖𝙣𝙝 📮',
                id: '.donasi',
              }
 
