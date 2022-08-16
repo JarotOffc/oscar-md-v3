@@ -24,35 +24,35 @@ let jarot = `
            hydratedFooterText: '',
            hydratedButtons: [{
              urlButton: {
-               displayText: 'YouTube creator🌱',
+               displayText: '𝙔𝙤𝙪𝙏𝙪𝙗𝙚 𝘾𝙧𝙚𝙖𝙩𝙤𝙧🌱',
                url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
              }
 
            },
                 {
                urlButton: {
-               displayText: 'GROUP BOT🌍',
+               displayText: '𝙂𝙧𝙤𝙪𝙥 𝘽𝙤𝙩 𝙊𝙛𝙛𝙘🌍',
                url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
              }
 
            },
                {
              quickReplyButton: {
-               displayText: 'Instagram',
+               displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢',
                url: instagram 
              }
              
            },
                {
              quickReplyButton: {
-               displayText: 'Menu',
+               displayText: '𝙈𝙚𝙣𝙪',
                id: '.menu',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: 'Donasi',
+               displayText: '𝘿𝙤𝙣𝙖𝙨𝙞',
                id: '.donasi',
              }
 
