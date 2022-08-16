@@ -16,7 +16,7 @@ let jarot = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'Store Jadibot',
-               url: 'https://wa.me/p/5157541794323439/6285850539404'
+               url: 'https://wa.me/p/6285850539404'
              }
 
            },
