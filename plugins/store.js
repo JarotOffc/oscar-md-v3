@@ -45,8 +45,8 @@ let jarot = `
            },
                {
              quickReplyButton: {
-               displayText: '𝙎𝙘𝙧𝙞𝙥𝙩',
-               id: '.script',
+               displayText: 'PILIHAN STORE',
+               id: '.pilihanstore',
              }
              
              },
