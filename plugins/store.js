@@ -39,7 +39,7 @@ let jarot = `
                {
              quickReplyButton: {
                displayText: '𝙄𝙣𝙨𝙩𝙖𝙜𝙧𝙖𝙢',
-               id: 'instagram 
+               url: 'instagram 
              }
              
            },
