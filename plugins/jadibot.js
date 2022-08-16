@@ -9,7 +9,7 @@ let anu = `Hallo mypren 👋
 *MAAF KAK FITUR JADIBOT TIDAK ADA DI DALAM FITUR KAMI*
 ⟩» *Kalau kakak mau jadi bot silahkan jasa run aja kak*
           
-━━━〔 ıll *HARGA* llı 〕━━ꕥ
+━━━〔 🏧 *HARGA* 🏧 〕━━ꕥ
 ⬡ *1 minggu * 15.000
 ⬡ *3 minggu:* 25.000
 ⬡ *Tutorial Jadibot:* 50.000
@@ -17,9 +17,9 @@ let anu = `Hallo mypren 👋
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${6285850539404}
 ⬡ *PULSA:* ${6285850539404}
-⬡ *Jangan Makai Doang om;v:* ${'Donasi:v'}
+⬡ *YouTube:* ${'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
-┏━━〔 ıll *RULES* llı 〕━ꕥ
+┏━━〔 📮 *RULES* 📮 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
 ⬡ [❗] *Kalau akunmu ke banned bukan urusan saya*
 ┗━━━━━━━━━━ꕥ
@@ -31,7 +31,7 @@ Contact person Jasa Tutorial:
 wa.me/${6285850539404} (Owner)
 
 *Follow Instagram ku juga kak😼*`
-  conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'SewaBot', '.sewaoscar', m) 
+  conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, '𝘿𝙤𝙣𝙖𝙨𝙞', '.donasi', '𝙎𝙚𝙬𝙖𝘽𝙤𝙩', '.sewaoscar', m) 
 }
 handler.help = ['jadibot']
 handler.tags = ['info']
