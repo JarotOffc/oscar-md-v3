@@ -1,7 +1,7 @@
 import xa from 'xfarr-api'
 let handler = async(m, { conn, usedPrefix, args, command }) => {
     if(!args[0]) throw `Harap masukkan URL sebagai parameter!\n\nContoh: ${usedPrefix + command} https://vt.tiktok.com/ZSdNmfmeJ/`
-    xa.Tiktok(args[0])
+    xa.tiktok(args[0])
     .then(async data => {   
     let caption = `                   *「 T I K T O K 」*
                  ████████▀▀▀████
