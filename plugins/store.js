@@ -25,14 +25,14 @@ let jarot = `
            hydratedButtons: [{
              urlButton: {
                displayText: 'YouTube creator🌱',
-               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ
+               url: 'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'
              }
 
            },
                 {
                urlButton: {
                displayText: 'GROUP BOT🌍',
-               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
+               url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL'
              }
 
            },
