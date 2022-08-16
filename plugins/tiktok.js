@@ -1,5 +1,4 @@
-tiktokdlv2( 'https://api.tikmate.app).then(console.log).catch(console.error)
-console.log(await tiktokdlv2( 'https://api.tikmate.app).catch(console.error))
+const hxz = require("hxz-api")
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
     const { author: { nickname }, video, description } = await tiktokdlv2(args[0])
