@@ -68,9 +68,9 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
      }
     })
 }
-handler.help = ['play'].map(v => v + ' <pencarian>')
+handler.help = ['play2'].map(v => v + ' <pencarian>')
 handler.tags = ['downloader']
-handler.command = /^(p|play)$/i
+handler.command = /^(p|play2)$/i
 handler.premium = false
 handler.group =false
 
