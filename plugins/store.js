@@ -45,8 +45,8 @@ let jarot = `
            },
                {
              quickReplyButton: {
-               displayText: '𝙈𝙚𝙣𝙪',
-               id: '.menu',
+               displayText: '𝙎𝙚𝙬𝙖',
+               id: '.sewa',
              }
              
              },
