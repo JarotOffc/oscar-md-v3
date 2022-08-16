@@ -1,4 +1,4 @@
-const { tiktokdl } = require('@bochilteam/scraper')
+const { tiktokdlv2 } = require('https://api.tikmate.app')
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
     const { author: { nickname }, video, description } = await tiktokdl(args[0])
