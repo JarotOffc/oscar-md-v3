@@ -45,14 +45,14 @@ let jarot = `
            },
                {
              quickReplyButton: {
-               displayText: 'Menu',
+               displayText: 'MENU',
                id: '.menu',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: 'Donasi',
+               displayText: 'DONASI',
                id: '.donasi',
              }
 
