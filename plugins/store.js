@@ -31,7 +31,7 @@ let jarot = `
            },
                 {
                urlButton: {
-               displayText: 'GROUP BOT🌍',
+               displayText: 'GROUP BOT',
                url: 'https://chat.whatsapp.com/IqZke0cAG6G3iVsnB9myfL
              }
 
