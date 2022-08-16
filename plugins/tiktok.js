@@ -1,17 +1,16 @@
 const hxz = require("hxz-api")
-let handler = async (m, { conn, args, usedPrefix, command }) => {
-    if (!args[0]) throw `Use example ${usedPrefix}${command} https`
-    const { author: { nickname }, video, description } = await require(args[0])
-    const url = video.no_watermark || video.no_watermark2 || video.no_watermark_raw
-    if (!url) throw 'Can\'t download video!'
-    conn.sendFile(m.chat, url, 'tiktok.mp4', `
-*Nickname:* ${nickname}
-*Description:* ${description}
-`.trim(), m)
+let handler = async (m, { conn, args, usedPrefix, command, isOwner }) => {
+	if (!args[0]) throw `Link tiktoknya mana?\n\ncontoh:\n${usedPrefix}${command} https://vm.tiktok.com/ZGJAmhSrp/`
+    hxz(args[0]).then(r => {
+    let video = r.video.no_watermark
+    conn.sendFile(m.chat, video, '', `*${wm}*`, m)
+    })
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
+handler.limit = true
+handler.group = false
 
-handler.command = /^(tik(tok)?(dl)?)$/i
+handler.command = /^(tt|tiktok|tik)$/i
 
 module.exports = handler
