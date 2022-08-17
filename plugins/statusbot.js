@@ -18,7 +18,7 @@ conn.reply(str)
 }
 handler.help = ['botstatus']
 handler.tags = ['info']
-handler.command = /^botstat(us)?$/i
+handler.command = /^botstatus(statusbot)?$/i
 
 module.exports = handler
 
