@@ -6,7 +6,7 @@ handler.all = async function (m, { isBlocked }) {
     if (isBlocked) return
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
-/* - - - - - - - Ini autoresponder by aine - - - - - - - */
+/* - - - - - - - Ini autoresponder by jarot - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 let regs = /(aku cinta kamu)/i
@@ -29,7 +29,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
     }
     
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
-/* - - - - - - - Ini autoresponder by aine - - - - - - - */
+/* - - - - - - - Ini autoresponder by jarot - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
     let regc = /(aku sayang kamu)/i
@@ -52,7 +52,7 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
     }
     
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
-/* - - - - - - - Ini autoresponder by aine - - - - - - - */
+/* - - - - - - - Ini autoresponder by jarot - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
     let regl = /(I love you|love you)/i
@@ -64,19 +64,19 @@ let sayangkamuh = saymu[Math.floor(Math.random() * saymu.length)]
 ]
 let loveyou = lovou[Math.floor(Math.random() * lovou.length)]
     if (isLoveYou && !m.fromMe) {
-    let helloaine = fs.readFileSync('./mp3/PTT-20211218-WA0243.opus') 
+    let hello = fs.readFileSync('./mp3/PTT-20211218-WA0243.opus') 
     conn.sendMessage(m.chat, {
         react: {
           text: `${loveyou}`,
           key: m.key,
         }})
    setTimeout(() => {
-        conn.sendFile(m.chat, helloaine, '', '', m, true)
+        conn.sendFile(m.chat, hello, '', '', m, true)
     }, 1000)
     }
     
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
-/* - - - - - - - Ini autoresponder by aine - - - - - - - */
+/* - - - - - - - Ini autoresponder by jarot - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
     let ass = /(assalamualaikum|assallamualaikum|assalamu\'alaikum|as\'salamualaikum)/i
@@ -100,10 +100,10 @@ let assl = assal[Math.floor(Math.random() * assal.length)]
     }
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
-/* - - - - - - - Ini autoresponder by aine - - - - - - - */
+/* - - - - - - - Ini autoresponder by jarot - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
     
-   /* let hiai = /(hi|hii|hiii|hi aine|hii aine|hiii aine|hy|halo|hallo|helo|hello|hy aine|halo aine|hallo aine|helo aine|hello aine)/i
+   /* let hiai = /(hi|hii|hiii|hii |hiii aine|hy|halo|hallo|helo|hello|hy aine|halo aine|hallo aine|helo aine|hello aine)/i
     let isAih = hiai.exec(m.text)
     let hiain = [
 '🥰',
