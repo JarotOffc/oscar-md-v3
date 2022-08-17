@@ -12,7 +12,7 @@ let jarot = `
             hydratedTemplate: {
                 hydratedContentText: jarot,
                 imageMessage: message.imageMessage, 
-           hydratedFooterText: '📮Note : Jika Kamu Menggunakan Wa Lama Atau Wa Mod, Dan Button Tidak Keliatan, Langsung Aja Ketik .? all',
+           hydratedFooterText: '📮Note : Jika Kamu Menggunakan Wa Lama Atau Wa Mod, Dan Button Tidak Keliatan, Langsung Aja Ketik .allmenu',
            hydratedButtons: [{
              urlButton: {
                displayText: '🔮𝙂𝙧𝙤𝙪𝙥𝘽𝙤𝙩🔮',
@@ -29,21 +29,21 @@ let jarot = `
            },
                {
              quickReplyButton: {
-               displayText: '𝙎𝙚𝙬𝙖',
+               displayText: '𝙎𝙚𝙬𝙖🚀',
                id: '.sewabot',
              }
              
            },
                {
              quickReplyButton: {
-               displayText: '𝙎𝙘𝙧𝙞𝙥𝙩',
+               displayText: '𝙎𝙘𝙧𝙞𝙥𝙩🎗️',
                id: '.sc',
              }
              
              },
                {
              quickReplyButton: {
-               displayText: '𝙇𝙞𝙨𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙',
+               displayText: '𝙇𝙞𝙨𝙩 𝘾𝙤𝙢𝙢𝙖𝙣𝙙📖',
                id: '.allmenu',
              }
 
