@@ -31,7 +31,7 @@ Contact person Jasa Tutorial:
 wa.me/${6285850539404} (Owner)
 
 *Follow Instagram ku juga kak😼*`
-  conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, '𝘿𝙤𝙣𝙖𝙨𝙞', '.donasi', '𝙎𝙚𝙬𝙖𝘽𝙤𝙩', '.sewaoscar', m) 
+  conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, '𝙋𝙞𝙡𝙞𝙝𝙖𝙣 𝙎𝙩𝙤𝙧𝙚', '.pilihanstore', '𝙎𝙚𝙬𝙖𝘽𝙤𝙩', '.sewaoscar', m) 
 }
 handler.help = ['jadibot']
 handler.tags = ['info']
