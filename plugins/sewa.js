@@ -31,7 +31,7 @@ Contact person Sewa Bot:
 wa.me/${6285850539404} (Owner)
 
 *Follow Instagram ku juga kak😼*`
-  conn.send3ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'Owner', '.owner', 'Menu', '.menu', m) 
+  conn.send3ButtonImg(m.chat, fla + teks, anu, instagram, 'Pilihan Store', '.pilihanstore', 'Owner', '.owner', 'Menu', '.menu', m) 
 }
 handler.help = ['sewaoscar']
 handler.tags = ['info']
