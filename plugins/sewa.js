@@ -1,8 +1,8 @@
 let fs = require('fs')
 let handler = async (m, { conn }) => {
 let teks = 'Sewa'
-let dana = '085850539404'
-let pulsa = '085850539404'
+let dana = global.dana
+let pulsa = global.pulsa
 let saweria = 'https://saweria.co/jarotoffc'
 let owner = global.owner
 let anu = `Hallo mypren 👋
@@ -16,7 +16,7 @@ let anu = `Hallo mypren 👋
 ┗━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
-⬡ *GOPAY:* ${gopay}
+⬡ *SAWERIA:* ${gopay}
 ⬡ *PULSA:* ${pulsa}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
