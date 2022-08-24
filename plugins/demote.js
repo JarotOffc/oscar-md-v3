@@ -53,7 +53,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 	let number = user.split('@')[0]
   
 	 await conn.groupParticipantsUpdate(m.chat, [user], 'demote')
-	//if (response[user] == 408) throw `Nomor tersebut telah keluar baru² ini\nHanya bisa masuk melalui ${usedPrefix}link`
+	//if (response[user] == 408) throw `Nomor tersebut telah keluar baru² ini\nHanya bisa masuk melalui ${usedPrefix}link!`
  	
  	conn.reply(m.chat, `Diturunkan sebagai admin @${number}`, null, {contextInfo: {
     mentionedJid: [user]
