@@ -10,7 +10,7 @@ let anu = `Hallo mypren 👋
 ⟩» *Kalau kakak mau jadi bot silahkan jasa run aja kak*
           
 ━━━〔 ıll *HARGA* llı 〕━━ꕥ
-⬡ *1 minggu * 15.000
+⬡ *1 minggu:* 15.000
 ⬡ *3 minggu:* 25.000
 ⬡ *Tutorial Jadibot:* 50.000
 ┗━━━━━━━━━━━━━━━━━━ꕥ
@@ -28,7 +28,7 @@ Jika anda berminat hubungi nomor di bawah!!
 Terimakasih yang sudah mendonasikan untuk bot
 
 Contact person jasa run:
-wa.me/${numberowner} (Owner)
+wa.me/${'6285850539404'} (Owner)
 
 *Follow Instagram ku juga kak😼*`
   conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'SewaBot', '.sewaoscar', m) 
