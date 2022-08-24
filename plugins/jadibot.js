@@ -17,7 +17,7 @@ let anu = `Hallo mypren 👋
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${6285850539404}
 ⬡ *GOPAY:* ${6285850539404}
-⬡ *Youtube:* ${webm}
+⬡ *Youtube:* ${'https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ'}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
 ⬡ [❗] *Dana yang sudah masuk tidak bisa di kembalikan*
