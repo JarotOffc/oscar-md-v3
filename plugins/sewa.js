@@ -3,7 +3,7 @@ let handler = async (m, { conn }) => {
 let teks = 'Sewa'
 let dana = global.dana
 let pulsa = global.pulsa
-let saweria = 'https://saweria.co/jarotoffc'
+let saweria = global.saweria
 let owner = global.owner
 let anu = `Hallo mypren 👋
 ━━━〔 ıll *Sewa Bot* llı 〕━━ꕥ
@@ -16,7 +16,7 @@ let anu = `Hallo mypren 👋
 ┗━━━━━━━━━━━━━━━ꕥ
 ┏━━━〔 ıll *PAYMENT* llı 〕━━ꕥ
 ⬡ *DANA:* ${dana}
-⬡ *SAWERIA:* ${gopay}
+⬡ *SAWERIA:* ${saweria}
 ⬡ *PULSA:* ${pulsa}
 ┗━━━━━━━━━━━━━━━━━━ꕥ
 ┏━━〔 ıll *RULES* llı 〕━ꕥ
