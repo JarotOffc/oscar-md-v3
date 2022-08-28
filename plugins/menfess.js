@@ -49,7 +49,7 @@ Contoh: #chat 628xxxxxxxxxx|hai owner`
 Isi Pesan : ${pesan}
 
 ⬡──⬡─────────⬡──⬡`
-    conn.send2ButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/9ceda8d2274e97bad5bca.jpg')).buffer(), logs, haori1, 'Owner', 'owner', 'Donasi', '.donasi', m)
+    conn.sendButtonImg(m.chat, await (await fetch('https://telegra.ph/file/9ceda8d2274e97bad5bca.jpg')).buffer(), logs, haori1, 'Owner', 'owner', 'Donasi', '.donasi', m)
 }
 handler.help = ['co <nomor|pesan>']
 handler.tags = ['main']
