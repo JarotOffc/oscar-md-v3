@@ -1,6 +1,7 @@
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => { 
  let locale = 'id' 
-  let d = new Date(new Date + 3600000) 
+ let fetch = require('node-fetch')
+  let d = new Date(new Date + 3600000) 
    let _uptime = process.uptime() * 1000 
    let uptime = clockString(_uptime) 
    let week = d.toLocaleDateString(locale, { weekday: 'long' }) 
