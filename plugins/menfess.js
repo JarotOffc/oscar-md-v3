@@ -51,7 +51,7 @@ Isi Pesan : ${pesan}
 ⬡──⬡─────────⬡──⬡`
     conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/9ceda8d2274e97bad5bca.jpg')).buffer(), logs, haori1, 'Owner', 'owner', 'Donasi', '.donasi', m)
 }
-handler.help = ['co <nomor|pesan>']
+handler.help = ['menfess <nomor|pesan>']
 handler.tags = ['main']
 handler.command = /^(co)$/i
 handler.owner = false
