@@ -53,7 +53,7 @@ Isi Pesan : ${pesan}
 }
 handler.help = ['menfess <nomor|pesan>']
 handler.tags = ['main']
-handler.command = /^(co)$/i
+handler.command = /^(menfess)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
