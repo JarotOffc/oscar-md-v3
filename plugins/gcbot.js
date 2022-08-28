@@ -43,8 +43,8 @@ let handler = async (m, { conn }) => conn.send2ButtonLoc(m.chat, await (await fe
 ╚════════════════════
 
 `.trim(), wm, 'Owner', '.owner', 'Menu', '.menu')
-handler.help = ['donasi']
+handler.help = ['gcbot']
 handler.tags = ['info']
-handler.command = /^dona(te|si)$/i
+handler.command = /^gc(bot|groupbot)$/i
 
 module.exports = handler
