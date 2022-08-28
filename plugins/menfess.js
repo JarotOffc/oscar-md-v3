@@ -33,7 +33,7 @@ Contoh Penggunaan: .chat nomor|pesan untuknya
 
 Contoh: #chat 628xxxxxxxxxx|hai owner`
 
-    conn.sendButton(chat + '@s.whatsapp.net', await(await fetch('https://telegra.ph/file/aa06b2e4067f6a6387b75.jpg')).buffer(), chat1, jarot, 'Menu', '.menu', 'Donasi', '.donasi', m)
+    conn.sendButtonImg(chat + '@s.whatsapp.net', await(await fetch('https://telegra.ph/file/aa06b2e4067f6a6387b75.jpg')).buffer(), chat1, jarot, 'Menu', '.menu', 'Donasi', '.donasi', m)
     
     let logs = `BOT AKAN BLOKIR KONTAKMU?
     
