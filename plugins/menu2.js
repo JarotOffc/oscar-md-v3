@@ -166,7 +166,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    conn.sendButtonloc(m.chat, text.trim(), 'Made with ♡ by Arik', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)
+    conn.sendButtonLoc(m.chat, text.trim(), 'Made with ♡ by Arik', null, [['Donasi', '.donasi'],['Owner', '.owner']], m)
     let url = 'https://telegra.ph/file/239f046a928370340401f.jpg'
     /*conn.sendHydrated(m.chat, text.trim(), 'Ⓟ premium | Ⓛ limit', null, 'https://instagram.com/Jarotr_', 'Website', '', '', [
       ['Donate', '/donasi'],
