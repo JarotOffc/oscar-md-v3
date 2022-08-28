@@ -1,4 +1,4 @@
-let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, await fetch('https://telegra.ph/file/c6d47e0aa9dca2263bee9.png')).buffer()`
+let handler = async (m, { conn, usedPrefix }) => conn.send2ButtonImg(m.chat, await fetch('https://telegra.ph/file/c6d47e0aa9dca2263bee9.png')).buffer()`
 ╭─「 Donasi • Dana 」
 │ • Tri [0895336282144]
 │ • Gopay  [0895336282144]
@@ -11,7 +11,7 @@ let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, awai
 │ _atau beli *RDP/VPS* agar bot bisa jalan_
 │ _24jam tanpa kendala_
 ╰────
-`.trim(), wm, 'Menu', usedPrefix + 'menu', m) // Tambah sendiri kalo mau
+`.trim(), wm, 'menu', usedPrefix + 'menu', m) // Tambah sendiri kalo mau
 handler.help = ['donasi']
 handler.tags = ['about']
 handler.command = /^dona(te|si)$/i
