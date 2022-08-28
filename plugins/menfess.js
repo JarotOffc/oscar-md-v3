@@ -33,7 +33,7 @@ Contoh Penggunaan: .chat nomor|pesan untuknya
 
 Contoh: #chat 628xxxxxxxxxx|hai owner`
 
-    conn.sendButtonImg(chat + '@s.whatsapp.net', await(await fetch('https://telegra.ph/file/aa06b2e4067f6a6387b75.jpg')).buffer(), chat1, jarot, 'Menu', '.menu', 'Donasi', '.donasi', m)
+    conn.send2ButtonImg(chat + '@s.whatsapp.net', await(await fetch('https://telegra.ph/file/aa06b2e4067f6a6387b75.jpg')).buffer(), chat1, jarot, 'Menu', '.menu', 'Donasi', '.donasi', m)
     
     let logs = `BOT AKAN BLOKIR KONTAKMU?
     
@@ -49,7 +49,7 @@ Contoh: #chat 628xxxxxxxxxx|hai owner`
 Isi Pesan : ${pesan}
 
 ⬡──⬡─────────⬡──⬡`
-    conn.sendButtonImg(m.chat, await (await fetch('https://telegra.ph/file/9ceda8d2274e97bad5bca.jpg')).buffer(), logs, haori1, 'Owner', 'owner', 'Donasi', '.donasi', m)
+    conn.send2ButtonImg(m.chat, await (await fetch('https://telegra.ph/file/9ceda8d2274e97bad5bca.jpg')).buffer(), logs, haori1, 'Owner', 'owner', 'Donasi', '.donasi', m)
 }
 handler.help = ['co <nomor|pesan>']
 handler.tags = ['main']
