@@ -1,13 +1,13 @@
-let handler = async (m, { conn, usedPrefix }) => conn.sendButtonImg(m.chat, await (await fetch('https://telegra.ph/file/c6d47e0aa9dca2263bee9.png')).buffer(),
+let handler = async (m, { conn, usedPrefix }) => conn.sendButtonLoc(m.chat, await (await fetch('https://telegra.ph/file/c6d47e0aa9dca2263bee9.png')).buffer(),
    
 ╭─「 Donasi • Dana 」
 │ • Dana [085850539404]
 │ • Pulsa  [085850539404]
-│ • Saweria  [https://saweria.co/jarotoffc]
+│ • Saweria  []
 ╰────
 ╭─「 Donasi  Via Ikuti Sosial Media Creator」
 │ • Youtube 
-│ • ['https://youtube.com/channel/UCW7iXlE7TgvJMIXQck4NYBQ]
+│ • [']
 │ • Instagram  
 │ • ['0]
 ╰────
