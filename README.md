@@ -51,8 +51,8 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
-git clone https://github.com/Aiinne/Aine-MD
-cd Aine-MD
+git clone https://github.com/Alpiii22/oscar-md-v3
+cd oscar-md-v3
 pkg install yarn
 yarn
 
@@ -67,8 +67,8 @@ yarn
 * Download And Install ImageMagick [`Click Here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/Aiinne/Aine-MD
-cd Aiinne-MD
+git clone https://github.com/Alpiii22/oscar-md-v3
+cd oscar-md-v3
 npm install
 npm update
 ```
