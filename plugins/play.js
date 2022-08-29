@@ -1,4 +1,4 @@
-let limit = 30
+let limit = 10
 let yts = require('yt-search')
 let fetch = require('node-fetch')
 const { servers, yta, ytv } = require('../lib/y2mate')
@@ -49,11 +49,11 @@ if (!isLimit) conn.sendFile(m.chat, dl_link, title + '.mp' + (3 + /2$/.test(comm
 handler.help = ['play', 'play'].map(v => v + ' <search>')
 handler.tags = ['downloader']
 handler.command = /^play2?$/i
-handler.premium = true
+handler.limit = true
 handler.group = false
 
 handler.exp = 0
-handler.limit = false
+handler.limit = true
 
 module.exports = handler
 
