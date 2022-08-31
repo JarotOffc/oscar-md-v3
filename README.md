@@ -44,21 +44,21 @@ Project created by <a href="https://github.com/Alpiii22">JAROT OFFC</a> to make 
 
 ---------
 
-## FOR TERMUX/UBUNTU/SSH USER
 
-```bash
-apt update && apt upgrade
-apt install git -y
-apt install nodejs -y
-apt install ffmpeg -y
-apt install imagemagick -y
-git clone https://github.com/Alpiii22/oscar-md-v3
-cd oscar-md-v3
-pkg install yarn
-yarn
 
-```
----------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Run
 
