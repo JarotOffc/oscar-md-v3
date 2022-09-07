@@ -118,6 +118,7 @@ gconly: false, // If that chat not from group, bot will ignore
 ✓ Jarot
 ✓ Kriz
 ✓ Zifvur 
+✓ Family-Md
 ✓ Kangsad
 ✓ Natx-C
 
