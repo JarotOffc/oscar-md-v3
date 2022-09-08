@@ -28,7 +28,7 @@ Jika anda berminat hubungi nomor di bawah!!
 Terimakasih yang sudah mendonasikan untuk bot
 
 Contact person jasa run:
-wa.me/${'6285850539404'} (Owner)
+wa.me/${'6281376349712'} (Owner)
 
 *Follow Instagram ku juga kak😼*`
   conn.send2ButtonImg(m.chat, fla + teks, anu, instagram, 'Donasi', '.donasi', 'SewaBot', '.sewaoscar', m) 
